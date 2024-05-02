@@ -101,7 +101,7 @@ export async function activate(context: vscode.ExtensionContext) {
 
   // Set the type of action to show on the menu
   triggerCommentsHide(colors);
-  triggerRegexHide();
+  triggerRegexHide(colors);
 
   // Show or hide the regex lines
   setRegexLines();

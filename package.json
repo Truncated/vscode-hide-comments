@@ -3,7 +3,7 @@
 	"displayName": "Hide Comments",
 	"description": "VSCode extension for people that do not like to see comments in the code. It allows you to hide/show comments in the code.",
 	"icon": "assets/hide-comments.png",
-	"version": "1.9.0",
+	"version": "1.10.0",
 	"preview": false,
 	"publisher": "eliostruyf",
 	"galleryBanner": {
@@ -45,6 +45,11 @@
 		"configuration": {
 			"title": "Hide Comments: Configuration",
 			"properties": {
+				"hideComments.foldOnHide": {
+					"type": "boolean",
+					"description": "Specify if you want to fold the code when comments are hidden.",
+					"default": true
+				},
 				"hideComments.defaultEnabled": {
 					"type": "boolean",
 					"description": "Specify if the hide comments extension is by default enabled on start of the project.",
